@@ -13,7 +13,7 @@ const Cat = sequelize.define("Cat", {
     },
     numbers: {
         type: DataTypes.INTEGER,
-        allowNull: false
+        defaultValue: 0
     }
 
 });
